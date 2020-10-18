@@ -1,5 +1,3 @@
-# vitorcaldini.github.io
-
 # Data Analytics, Mineração de Dados e Machine Learning
 
 Alguns notebooks de análises exploratórias e algoritmos realizadas no RStudio, os códigos para reprodução estão em todos os documentos.
