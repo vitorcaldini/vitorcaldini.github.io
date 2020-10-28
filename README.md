@@ -21,3 +21,11 @@ Consiste em uma Análise Exploratória de Dados (EDA), tratamento e preparação
 O conjunto de dados utilizado é referente à cidade de Ames, em Iowa nos Estados Unidos. O estudo foi compilado por Dean De Cock e está disponível na plataforma Kaggle, bem como o notebook do autor Erik Bruin, utilizado como referência. O conjunto conta com 2919 residências, descritas por 79 características que serão ordenadas por sua importância no preço de venda do imóvel e manipuladas para modelagem do algoritmo preditivo.
 
 Este tipo de análise visa não somente a criação de um modelo matemático para previsão como também a descoberta de insights a respeito das variáveis que envolvem o mercado imobiliário estudado. Desta forma, entende-se que o estudo possa ser reproduzido para conjuntos de dados brasileiros e servir de direcionamento para ivestimentos de recursos e esforços de incorporadoras, construtores e imobiliárias que buscam aliar eficiência operacional, retorno financeiro e satisfação dos clientes.
+
+### [Análise de Coorte (Cohort Analysis)](https://vitorcaldini.github.io/cohort.html)
+
+Empresas que enfrentam incertezas do mercado ou mudanças frequentes em seus produtos, serviços e processos precisar de métricas específicas que avaliem os diferentes momentos do ciclo de vida. E uma destas ferramentas é a Análise de Coorte (ou Análise Cohort).Presente em muitas plataformas como o Google Analytics, o princípio por trás da métrica é de que clientes de períodos diferentes vão ter experiências diferentes, por mais sutis que aparentam ser.
+
+Por definição, um coorte é um grupo de indivíduos que compartilham a mesma característica, e a métrica permite avaliar o comportamento do coorte durante o tempo e compará-lo com outros coortes. Em uma de suas aplicações no setor de marketing/comercial, a análise divide os clientes de acordo com o período de aquisição do produto ou serviço e o seu ciclo de vida em um intervalo definido.
+
+Assim, é possível analisar a retenção dos clientes durante o ciclo de vida do produto, e mais importante: durante o ciclo de vida do cliente, agrupado de acordo com o primeiro contato. Tudo isso de forma visual e intuitiva. Desta forma, as métricas ficam bastante granulares e permitem avaliar com precisão o impacto das alterações, investimentos e campanhas, por exemplo.
