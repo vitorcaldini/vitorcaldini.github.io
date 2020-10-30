@@ -31,3 +31,20 @@ Por definição, um coorte é **um grupo de indivíduos que compartilham a mesma
 Assim, é possível analisar a retenção dos clientes durante o **ciclo de vida do produto**, e mais importante: durante o **ciclo de vida do cliente**, agrupado de acordo com o primeiro contato. Tudo isso de forma visual e intuitiva. Desta forma, as métricas ficam bastante granulares e permitem avaliar com precisão o impacto das alterações, investimentos e campanhas, por exemplo.
 
 Separei um notebook resumindo e explicando o processo de criação da matriz a partir de uma planilha em excel com apenas *3 colunas*: `código da transação`, `data` e `código do cliente`. Tem umas etapas bem breves de tratamento e limpeza de dados também, espero que tenha ficado acessível.
+
+
+### [Análise RFM (Cohort Analysis)](https://vitorcaldini.github.io/rfm.html)
+
+A análise RFM é um modelo de **clusterização** de clientes que visa dividi-los em grupos para 3 características:
+
+- **Recência**
+
+Última vez que o cliente fez uma determinada ação (precisa ser definido pelo negócio), geralmente uma compra ou um engajamento específico;
+
+- **Frequência**
+
+Quantidade de ações (compras, engajamentos, etc) realizados pelo cliente em um intevalo de tempo definido.
+
+- **Valor Monetário**
+
+Quantia total gasta ou alguma quantificação de valor recebido do cliente.
