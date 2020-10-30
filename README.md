@@ -4,6 +4,8 @@ Alguns notebooks de análises exploratórias e algoritmos realizadas no RStudio,
 
 A ideia é apresentar as análises em linguagem acessível e amigável a todos, assim como os algoritmos e o passo-a-passo. Espero que estimule novos enstusiastas da área.
 
+Para acessar o caderno completo basta clicar no link do título.
+
 (71) 98184-0456 │ falecomcaldini@gmail.com
 
 ## [Porto Seguro - Estimativa de probabilidade de acionamento de seguro](https://vitorcaldini.github.io/portoseguro)
@@ -16,7 +18,7 @@ Não obstante, o desenvolvimento conta com uma seção de Feature Engineering, o
 
 Um outro ponto importante foi a anonimização dos dados. Frente a vigência da LGPD esta é sempre uma questão que chama a atenção, e por isso escolhi deste conjunto de dados e eu espero que o desenvolvimento do estudo possa exemplificar etapas e obstáculos para o tratamento e análise de dados codificados para auxiliar analistas neste tipo de projeto que está cada vez mais comum.
 
-## [House Prices - Avaliando o impacto das características e estimando preço de venda de imóveis](https://vitorcaldini.github.io/analiseimobiliaria)
+## [House Prices - Impacto das características no preço e estimando valor de venda de imóveis](https://vitorcaldini.github.io/analiseimobiliaria)
 
 Consiste em uma **Análise Exploratória de Dados (EDA)**, tratamento e preparação de dados (Data Wrangling), avaliação e seleção dos principais parâmetros (Feature Engineering) e **modelagem de um algoritmo preditivo** para estimativa de preço de venda de imóveis a partir dos algoritmos regressores por regularização Lasso e Gradient Boosting (XGBOOST).
 
