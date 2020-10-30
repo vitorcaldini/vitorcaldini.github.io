@@ -6,7 +6,7 @@ A ideia é apresentar as análises em linguagem acessível e amigável a todos, 
 
 (71) 98184-0456 │ falecomcaldini@gmail.com
 
-### [Porto Seguro - Estimativa de probabilidade de acionamento de seguro](https://vitorcaldini.github.io/portoseguro)
+## [Porto Seguro - Estimativa de probabilidade de acionamento de seguro](https://vitorcaldini.github.io/portoseguro)
 
 Este documento apresenta uma **Análise Exploratória de Dados (EDA)** do conjunto de dados “Porto Seguro`s Safe Driver Prediction”, fornecido pela concessionária de seguros Porto Seguro como projeto de Machine Learning e com base nos Notebooks do projeto do Kaggle, especialmente do autor Headsortails. O documento visa apresentar uma análise detalhada dos dados coletados pela empresa e suas relações com a variável-alvo: *saber se o cliente irá acionar o seguro no ano seguinte*.
 
@@ -16,7 +16,7 @@ Não obstante, o desenvolvimento conta com uma seção de Feature Engineering, o
 
 Um outro ponto importante foi a anonimização dos dados. Frente a vigência da LGPD esta é sempre uma questão que chama a atenção, e por isso escolhi deste conjunto de dados e eu espero que o desenvolvimento do estudo possa exemplificar etapas e obstáculos para o tratamento e análise de dados codificados para auxiliar analistas neste tipo de projeto que está cada vez mais comum.
 
-### [House Prices - Avaliando o impacto das características e estimando preço de venda de imóveis](https://vitorcaldini.github.io/analiseimobiliaria)
+## [House Prices - Avaliando o impacto das características e estimando preço de venda de imóveis](https://vitorcaldini.github.io/analiseimobiliaria)
 
 Consiste em uma **Análise Exploratória de Dados (EDA)**, tratamento e preparação de dados (Data Wrangling), avaliação e seleção dos principais parâmetros (Feature Engineering) e **modelagem de um algoritmo preditivo** para estimativa de preço de venda de imóveis a partir dos algoritmos regressores por regularização Lasso e Gradient Boosting (XGBOOST).
 
@@ -26,7 +26,7 @@ O conjunto de dados utilizado é referente à cidade de Ames, em Iowa nos Estado
 
 Este tipo de análise visa não somente a criação de um modelo matemático para previsão como também a **descoberta de insights** a respeito das variáveis que envolvem o mercado imobiliário estudado. Desta forma, entende-se que o estudo possa ser reproduzido para conjuntos de dados brasileiros e servir de direcionamento para ivestimentos de recursos e esforços de incorporadoras, construtores e imobiliárias que buscam aliar eficiência operacional, retorno financeiro e satisfação dos clientes.
 
-### [Análise de Coorte (Cohort Analysis)](https://vitorcaldini.github.io/cohort.html)
+## [Análise de Coorte (Cohort Analysis)](https://vitorcaldini.github.io/cohort.html)
 
 Empresas que enfrentam **incertezas do mercado** ou mudanças frequentes em seus produtos, serviços e processos precisar de métricas específicas que avaliem os diferentes momentos do ciclo de vida. E uma destas ferramentas é a Análise de Coorte (ou Análise Cohort).Presente em muitas plataformas como o Google Analytics, o princípio por trás da métrica é de que *clientes de períodos diferentes vão ter experiências diferentes*, por mais sutis que aparentam ser.
 
@@ -38,8 +38,7 @@ Assim, é possível analisar a retenção dos clientes durante o **ciclo de vida
 
 Separei um notebook resumindo e explicando o processo de criação da matriz a partir de uma planilha em excel com apenas *3 colunas*: `código da transação`, `data` e `código do cliente`. Tem umas etapas bem breves de tratamento e limpeza de dados também, espero que tenha ficado acessível.
 
-
-### [Análise RFM (Cohort Analysis)](https://vitorcaldini.github.io/rfm.html)
+## [Análise RFM (Cohort Analysis)](https://vitorcaldini.github.io/rfm.html)
 
 A análise RFM é um modelo de **clusterização** de clientes que visa dividi-los em grupos para 3 características:
 
