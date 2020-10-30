@@ -38,13 +38,14 @@ Separei um notebook resumindo e explicando o processo de criação da matriz a p
 A análise RFM é um modelo de **clusterização** de clientes que visa dividi-los em grupos para 3 características:
 
 - **Recência**
-
 Última vez que o cliente fez uma determinada ação (precisa ser definido pelo negócio), geralmente uma compra ou um engajamento específico;
 
 - **Frequência**
-
 Quantidade de ações (compras, engajamentos, etc) realizados pelo cliente em um intevalo de tempo definido.
 
 - **Valor Monetário**
-
 Quantia total gasta ou alguma quantificação de valor recebido do cliente.
+
+![download (1)](https://user-images.githubusercontent.com/71895683/97706859-1fbf1d80-1a95-11eb-8226-527a40e0263a.png)
+
+Neste notebook explico como criar uma matriz dessa e exportar em excel para encaminhar a estratégias específicas para cada cluster. Uma vez criado esse script, para cada planilha nova de entrada é só rodar os script novamente que sairá uma planilha em excel calculada e formatada de acordo com a matriz RFM.
