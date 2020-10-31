@@ -13113,16 +13113,16 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Uma questão importante é a definição de como serão divididos estes grupos. Pode ser uma definição personalizada da empresa seguindo alguma definição específica do negócio ou seguir algumas regras quantitativa como a divisão 80/20 de Pareto ou a partir dos <strong>percentis</strong>.</p>
+<h3 id="Primeiros-passos">Primeiros passos<a class="anchor-link" href="#Primeiros-passos">&#182;</a></h3><p>A primeira questão importante a se atentar é a definição de como serão divididos estes grupos. Pode ser uma definição personalizada da empresa seguindo alguma definição específica do negócio ou seguir algumas regras quantitativa como a divisão 80/20 de Pareto ou a partir dos <strong>percentis</strong>.</p>
 <p>Neste estudo será exemplificado o modo a partir dos percentis, onde os cliente são dividios em <strong>grupos de mesmo tamanho</strong> a partir da quantidade de níveis escolhida para cada variável (R, F e M).</p>
-<h3 id="Por-exemplo:">Por exemplo:<a class="anchor-link" href="#Por-exemplo:">&#182;</a></h3>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Se o negócio definir o R, F e o M em 5 níveis para cada cliente, o processo manual para o R (recency) seria:</p>
+<h3 id="Por-exemplo:">Por exemplo:<a class="anchor-link" href="#Por-exemplo:">&#182;</a></h3><p>Se o negócio definir o R, F e o M em 5 níveis para cada cliente, o processo manual para o R (recency) seria:</p>
 <ul>
 <li>Identificar o cliente que comprou a menos tempo a atribuir a ele a maior nota de Recência (5);</li>
 <li>Identificar o cliente que comprou a mais tempo e atribuir a ele a menor nota re Recência (1);</li>
@@ -15099,9 +15099,9 @@ dtype: int64</pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Pronto, essa tabela por exeplo pode ser exportada para excel e encaminhada para outras estratégias direcionadas para cada cluster como e-mail marketing e CRM. o comando para exportar em excel é:</p>
-<p><code>rfm.to_excel('nomedaplanilha.xlsx')</code></p>
+<p><code>rfm.to_excel("nomedaplanilha.xlsx", index=False)</code></p>
 <p>Isso cria uma planilha .xlsx na mesma pasta em que está o notebook. Caso queira especificar um local diferente para salvar é só escrever o endereço no disco:</p>
-<p><code>rfm.to_excel(C:endereco/nomedaplanilha.xlsx')</code></p>
+<p>`rfm.to_excel(C:endereco/nomedaplanilha.xlsx')</p>
 
 </div>
 </div>
