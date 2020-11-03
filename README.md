@@ -56,3 +56,15 @@ Quantia total gasta ou alguma quantificação de valor recebido do cliente.
 ![download (1)](https://user-images.githubusercontent.com/71895683/97706859-1fbf1d80-1a95-11eb-8226-527a40e0263a.png)
 
 Neste notebook explico como criar uma matriz dessa e **exportar em excel** para encaminhar a estratégias específicas para cada cluster. Uma vez criado esse script, para cada planilha nova de entrada é só rodar os script novamente que sairá uma planilha em excel calculada e formatada de acordo com a matriz RFM.
+
+## [Supply Chain - Melhores Rotas](https://vitorcaldini.github.io/ortools.html)
+
+Teste de ferramentas de otimização de processos da Google Developers Experts (OR-Tools) para Pyhton, especialmente as soluções para rotas voltadas aos processo de supply chain.
+
+São bem simples e trazem resultados interessantes. Em um teste com 1 depósito e 13 pontos de entrega existem mais de 3 bilhões de rotas possíveis para um único veículo (Problema do Caixeiro-Viajante - PCV), e a resposta é instantânea. Assim como no teste para 4 veículos (Vehicle Routing Problem).
+
+E o mais importante: pelo teste ter usado conexão com a API Distance Matrix do Google Maps, as distâncias entre os pontos são reais (pelas próprias vias) e variam de acordo com o sentido da rota. E se em vez da rota mais curta quiser a mais rápida, a mesma API retorna a matriz de duração como dado de entrada do modelo.
+
+Além disso, as ferramentas trabalham bem ao inserir as restrições da vida real, como: capacidade de carga de cada veículo e quantidade de entrega em cada destino, restrições de horário para chegada em cada ponto, planejamento e tempo de carga e descarga no depósito, entre outros.
+
+![pcv](https://user-images.githubusercontent.com/71895683/97932846-c9313800-1d4f-11eb-9351-a74513534e40.png)
