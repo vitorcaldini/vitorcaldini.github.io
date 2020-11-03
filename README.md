@@ -30,7 +30,7 @@ Não obstante, o desenvolvimento conta com uma seção de Feature Engineering, o
 
 Um outro ponto importante foi a anonimização dos dados. Frente a vigência da LGPD esta é sempre uma questão que chama a atenção, e por isso escolhi deste conjunto de dados e eu espero que o desenvolvimento do estudo possa exemplificar etapas e obstáculos para o tratamento e análise de dados codificados para auxiliar analistas neste tipo de projeto que está cada vez mais comum.
 
-## [Importância das características no preço de venda de imóveis e algoritmo para estimar valor de venda](https://vitorcaldini.github.io/analiseimobiliaria)
+## [Importância das características no preço de venda de imóveis e algoritmo para estimar valor](https://vitorcaldini.github.io/analiseimobiliaria)
 
 Consiste em uma **Análise Exploratória de Dados (EDA)**, tratamento e preparação de dados (Data Wrangling), avaliação e seleção dos principais parâmetros (Feature Engineering) e **modelagem de um algoritmo preditivo** para estimativa de preço de venda de imóveis a partir dos algoritmos regressores por regularização Lasso e Gradient Boosting (XGBOOST).
 
