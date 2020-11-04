@@ -8,6 +8,18 @@ Para acessar o caderno completo basta clicar no link do título.
 
 (71) 98184-0456 │ falecomcaldini@gmail.com
 
+## [Supply Chain - Melhores Rotas](https://vitorcaldini.github.io/ortools.html)
+
+Teste de ferramentas de otimização de processos da Google Developers Experts (OR-Tools) para Pyhton, especialmente as soluções para rotas voltadas aos processo de supply chain.
+
+São bem simples e trazem resultados interessantes. Em um teste com 1 depósito e 13 pontos de entrega existem mais de 3 bilhões de rotas possíveis para um único veículo (Problema do Caixeiro-Viajante - PCV), e a resposta é instantânea. Assim como no teste para 4 veículos (Vehicle Routing Problem).
+
+E o mais importante: pelo teste ter usado conexão com a API Distance Matrix do Google Maps, as distâncias entre os pontos são reais (pelas próprias vias) e variam de acordo com o sentido da rota. E se em vez da rota mais curta quiser a mais rápida, a mesma API retorna a matriz de duração como dado de entrada do modelo.
+
+Além disso, as ferramentas trabalham bem ao inserir as restrições da vida real, como: capacidade de carga de cada veículo e quantidade de entrega em cada destino, restrições de horário para chegada em cada ponto, planejamento e tempo de carga e descarga no depósito, entre outros.
+
+![pcv](https://user-images.githubusercontent.com/71895683/97932846-c9313800-1d4f-11eb-9351-a74513534e40.png)
+
 ## [Porto Seguro - Estimativa de probabilidade de acionamento de seguro](https://vitorcaldini.github.io/portoseguro)
 
 Este documento apresenta uma **Análise Exploratória de Dados (EDA)** do conjunto de dados “Porto Seguro`s Safe Driver Prediction”, fornecido pela concessionária de seguros Porto Seguro como projeto de Machine Learning e com base nos Notebooks do projeto do Kaggle, especialmente do autor Headsortails. O documento visa apresentar uma análise detalhada dos dados coletados pela empresa e suas relações com a variável-alvo: *saber se o cliente irá acionar o seguro no ano seguinte*.
@@ -18,7 +30,7 @@ Não obstante, o desenvolvimento conta com uma seção de Feature Engineering, o
 
 Um outro ponto importante foi a anonimização dos dados. Frente a vigência da LGPD esta é sempre uma questão que chama a atenção, e por isso escolhi deste conjunto de dados e eu espero que o desenvolvimento do estudo possa exemplificar etapas e obstáculos para o tratamento e análise de dados codificados para auxiliar analistas neste tipo de projeto que está cada vez mais comum.
 
-## [House Prices - Impacto das características no preço e estimando valor de venda de imóveis](https://vitorcaldini.github.io/analiseimobiliaria)
+## [Importância das características no preço de venda de imóveis e algoritmo para estimar valor](https://vitorcaldini.github.io/analiseimobiliaria)
 
 Consiste em uma **Análise Exploratória de Dados (EDA)**, tratamento e preparação de dados (Data Wrangling), avaliação e seleção dos principais parâmetros (Feature Engineering) e **modelagem de um algoritmo preditivo** para estimativa de preço de venda de imóveis a partir dos algoritmos regressores por regularização Lasso e Gradient Boosting (XGBOOST).
 
