@@ -6,7 +6,7 @@ A ideia é apresentar as análises em linguagem acessível e amigável a todos, 
 
 Para acessar o caderno completo basta clicar no link do título.
 
-(71) 98184-0456 │ falecomcaldini@gmail.com
+(71) 98184-0456 │ caldini.civil@gmail.com
 
 ## [Supply Chain - Melhores Rotas](https://vitorcaldini.github.io/ortools.html)
 
