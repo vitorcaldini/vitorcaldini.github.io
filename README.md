@@ -1,6 +1,6 @@
 # Data Analytics, Mineração de Dados e Machine Learning
 
-Alguns notebooks de análises exploratórias e algoritmos realizadas no RStudio, os códigos para reprodução estão em todos os documentos.
+Alguns notebooks de análises exploratórias e algoritmos construídos com Linguagem R e Python, os códigos para reprodução estão em todos os documentos.
 
 A ideia é apresentar as análises em linguagem acessível e amigável a todos, assim como os algoritmos e o passo-a-passo. Espero que estimule novos enstusiastas da área.
 
